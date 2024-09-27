@@ -7,43 +7,20 @@ keywords:
   - manubot
 lang: en-US
 authors:
-  - github: johndoe
-    name: Yuhao
-    initials: JD
-    orcid: XXXX-XXXX-XXXX-XXXX
-    twitter: johndoe
-    mastodon: johndoe
-    mastodon-server: mastodon.social
+  - name: Yuhao Zhang
+    initials: YZ
     email: yuhaoz6@illinois.edu
-    affiliations:
-      - Department of Something, University of Whatever
-    funders:
-      - Grant XXXXXXXX
-  - github: janeroe
-    name: Trix Li
+    corresponding: true
+  - name: Trix Li
     initials: TL
-    orcid: XXXX-XXXX-XXXX-XXXX
     email: zhouxin2@illinois.edu
-    affiliations:
-      - Department of Something, University of Whatever
-      - Department of Whatever, University of Something
     corresponding: true
-  - github: janeroe
-    name: YUlin Zhu
-    initials: JR
-    orcid: XXXX-XXXX-XXXX-XXXX
+  - name: Yulin Zhu
+    initials: YZ
     email: yulinz7@illinois.edu
-    affiliations:
-      - Department of Something, University of Whatever
-      - Department of Whatever, University of Something
     corresponding: true
-  - github: janeroe
-    name: Jingfei Qiao
+  - name: Jingfei Qiao
     initials: JQ
-    orcid: XXXX-XXXX-XXXX-XXXX
     email: jqiao3@illinois.edu
-    affiliations:
-      - Department of Civil and Environmental Engineering, University of Whatever
-      - Department of Whatever, University of Something
     corresponding: true
 

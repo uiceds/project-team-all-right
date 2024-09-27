@@ -1,5 +1,5 @@
 ---
-title: "Forecasting Future Trends in Sustainable Energy Consumption: A Data-Driven Approach Using Historical Data on Hydroelectric, Solar, and Biofuel Energy Sources"
+title: "Wastewater Treatment Plant Energy Consumption Analysis "
 date: null  # Defaults to date generated, but can specify like '2022-10-31'.
 keywords:
   - markdown
@@ -27,6 +27,8 @@ authors:
     affiliations:
       - Department of Something, University of Whatever
       - Department of Whatever, University of Something
+    corresponding: true
+     - github: janeroe
   - github: janeroe
     name: YUlin Zhu
     initials: JR
@@ -35,6 +37,7 @@ authors:
     affiliations:
       - Department of Something, University of Whatever
       - Department of Whatever, University of Something
+    corresponding: true
   - github: janeroe
     name: Jingfei Qiao
     initials: JQ
@@ -43,3 +46,4 @@ authors:
     affiliations:
       - Department of Civil and Environmental Engineering, University of Whatever
       - Department of Whatever, University of Something
+    corresponding: true

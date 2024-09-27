@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-09-27" />
   <meta name="citation_publication_date" content="2024-09-27" />
   <meta property="article:published_time" content="2024-09-27" />
-  <meta name="dc.modified" content="2024-09-27T20:14:34+00:00" />
-  <meta property="article:modified_time" content="2024-09-27T20:14:34+00:00" />
+  <meta name="dc.modified" content="2024-09-27T20:17:37+00:00" />
+  <meta property="article:modified_time" content="2024-09-27T20:17:37+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -55,9 +55,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-all-right/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-all-right/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-all-right/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-all-right/v/9926d5853ef47af7668911bd6cd202df3b3ed895/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-all-right/v/9926d5853ef47af7668911bd6cd202df3b3ed895/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-all-right/v/9926d5853ef47af7668911bd6cd202df3b3ed895/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-all-right/v/f0957e49c628313d2c7253db18aaf040a0fa84c8/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-all-right/v/f0957e49c628313d2c7253db18aaf040a0fa84c8/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-all-right/v/f0957e49c628313d2c7253db18aaf040a0fa84c8/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -79,9 +79,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-all-right/v/9926d5853ef47af7668911bd6cd202df3b3ed895/))
+([permalink](https://uiceds.github.io/project-team-all-right/v/f0957e49c628313d2c7253db18aaf040a0fa84c8/))
 was automatically generated
-from [uiceds/project-team-all-right@9926d58](https://github.com/uiceds/project-team-all-right/tree/9926d5853ef47af7668911bd6cd202df3b3ed895)
+from [uiceds/project-team-all-right@f0957e4](https://github.com/uiceds/project-team-all-right/tree/f0957e49c628313d2c7253db18aaf040a0fa84c8)
 on September 27, 2024.
 </em></small>
 
@@ -153,6 +153,7 @@ Jingfei Qiao \<jqiao3@illinois.edu\>.
 
 
 ## Abstract {.page_break_before}
+The historical data that we have collected from EIA regarding sustainable energy consumption will be utilized in the process of developing predictive models for the purpose of forecasting future patterns of likely sustainable energy consumption distribution. This particular research will primarily focus on three types of sustainable energy sources: hydroelectric power, solar energy, and biofuels. We will create an advanced data science model, using historical data for analysis and identifying the trending patterns (location-wise, seasonal-wise) for future potential clean energy consumption shift forecasting model creation. 
 
 
 

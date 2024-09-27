@@ -1,5 +1,5 @@
 ---
-title: "Wastewater Treatment Plant Energy Consumption Analysis "
+title: "Wastewater Treatment Plant Energy Consumption Analysis"
 date: null  # Defaults to date generated, but can specify like '2022-10-31'.
 keywords:
   - markdown
@@ -28,7 +28,6 @@ authors:
       - Department of Something, University of Whatever
       - Department of Whatever, University of Something
     corresponding: true
-     - github: janeroe
   - github: janeroe
     name: YUlin Zhu
     initials: JR
@@ -47,3 +46,4 @@ authors:
       - Department of Civil and Environmental Engineering, University of Whatever
       - Department of Whatever, University of Something
     corresponding: true
+---

@@ -10,16 +10,15 @@ authors:
   - name: Yuhao Zhang
     initials: YZ
     email: yuhaoz6@illinois.edu
-  
+    
   - name: Trix Li
     initials: TL
     email: zhouxin2@illinois.edu
-    
+    corresponding: true
   - name: Yulin Zhu
     initials: YZ
     email: yulinz7@illinois.edu
     corresponding: true
-    
   - name: Jingfei Qiao
     initials: JQ
     email: jqiao3@illinois.edu

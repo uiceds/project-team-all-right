@@ -10,7 +10,7 @@ authors:
   - github: johndoe
     name: Yuhao
     initials: JD
-    orcid: XXXX-XXXX-XXXX-XXXX
+    orcid: 0000-0000-0000-0000  # Replace with actual ORCID
     twitter: johndoe
     mastodon: johndoe
     mastodon-server: mastodon.social
@@ -19,28 +19,28 @@ authors:
       - Department of Something, University of Whatever
     funders:
       - Grant XXXXXXXX
-  - github: janeroe
+  - github: trixli  # Replace with actual GitHub handle
     name: Trix Li
     initials: TL
-    orcid: XXXX-XXXX-XXXX-XXXX
+    orcid: 0000-0000-0000-0000  # Replace with actual ORCID
     email: zhouxin2@illinois.edu
     affiliations:
       - Department of Something, University of Whatever
       - Department of Whatever, University of Something
     corresponding: true
-  - github: janeroe
+  - github: yulinzhu  # Replace with actual GitHub handle
     name: YUlin Zhu
     initials: JR
-    orcid: XXXX-XXXX-XXXX-XXXX
+    orcid: 0000-0000-0000-0000  # Replace with actual ORCID
     email: yulinz7@illinois.edu
     affiliations:
       - Department of Something, University of Whatever
       - Department of Whatever, University of Something
     corresponding: true
-  - github: janeroe
+  - github: jingfeiqiao  # Replace with actual GitHub handle
     name: Jingfei Qiao
     initials: JQ
-    orcid: XXXX-XXXX-XXXX-XXXX
+    orcid: 0000-0000-0000-0000  # Replace with actual ORCID
     email: jqiao3@illinois.edu
     affiliations:
       - Department of Civil and Environmental Engineering, University of Whatever

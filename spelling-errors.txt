@@ -1,6 +1,6 @@
-biofuels
+Biofuels
 CSV
-Dataset
+dataset
 EIA
 ESG
 GWh

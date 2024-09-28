@@ -1,11 +1,11 @@
 ---
-title: 'Wastewater Treatment Plant Energy Consumption Analysis '
+title: Wastewater Treatment Plant Energy Consumption Analysis
 keywords:
 - markdown
 - publishing
 - manubot
 lang: en-US
-date-meta: '2024-09-27'
+date-meta: '2024-09-28'
 author-meta:
 - Yuhao
 - Trix Li
@@ -18,15 +18,15 @@ header-includes: |
   -->
   <meta name="dc.format" content="text/html" />
   <meta property="og:type" content="article" />
-  <meta name="dc.title" content="Wastewater Treatment Plant Energy Consumption Analysis " />
-  <meta name="citation_title" content="Wastewater Treatment Plant Energy Consumption Analysis " />
-  <meta property="og:title" content="Wastewater Treatment Plant Energy Consumption Analysis " />
-  <meta property="twitter:title" content="Wastewater Treatment Plant Energy Consumption Analysis " />
-  <meta name="dc.date" content="2024-09-27" />
-  <meta name="citation_publication_date" content="2024-09-27" />
-  <meta property="article:published_time" content="2024-09-27" />
-  <meta name="dc.modified" content="2024-09-27T20:24:33+00:00" />
-  <meta property="article:modified_time" content="2024-09-27T20:24:33+00:00" />
+  <meta name="dc.title" content="Wastewater Treatment Plant Energy Consumption Analysis" />
+  <meta name="citation_title" content="Wastewater Treatment Plant Energy Consumption Analysis" />
+  <meta property="og:title" content="Wastewater Treatment Plant Energy Consumption Analysis" />
+  <meta property="twitter:title" content="Wastewater Treatment Plant Energy Consumption Analysis" />
+  <meta name="dc.date" content="2024-09-28" />
+  <meta name="citation_publication_date" content="2024-09-28" />
+  <meta property="article:published_time" content="2024-09-28" />
+  <meta name="dc.modified" content="2024-09-28T19:45:41+00:00" />
+  <meta property="article:modified_time" content="2024-09-28T19:45:41+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -35,29 +35,29 @@ header-includes: |
   <meta name="citation_technical_report_institution" content="Manubot" />
   <meta name="citation_author" content="Yuhao" />
   <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
-  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
+  <meta name="citation_author_orcid" content="0000-0000-0000-0000" />
   <meta name="twitter:creator" content="@johndoe" />
   <meta name="citation_author" content="Trix Li" />
   <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
   <meta name="citation_author_institution" content="Department of Whatever, University of Something" />
-  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
+  <meta name="citation_author_orcid" content="0000-0000-0000-0000" />
   <meta name="citation_author" content="YUlin Zhu" />
   <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
   <meta name="citation_author_institution" content="Department of Whatever, University of Something" />
-  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
+  <meta name="citation_author_orcid" content="0000-0000-0000-0000" />
   <meta name="citation_author" content="Jingfei Qiao" />
   <meta name="citation_author_institution" content="Department of Civil and Environmental Engineering, University of Whatever" />
   <meta name="citation_author_institution" content="Department of Whatever, University of Something" />
-  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
+  <meta name="citation_author_orcid" content="0000-0000-0000-0000" />
   <link rel="canonical" href="https://uiceds.github.io/project-team-all-right/" />
   <meta property="og:url" content="https://uiceds.github.io/project-team-all-right/" />
   <meta property="twitter:url" content="https://uiceds.github.io/project-team-all-right/" />
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-all-right/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-all-right/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-all-right/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-all-right/v/554d8df65c28c104eae700dfa4c3760dbfafebde/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-all-right/v/554d8df65c28c104eae700dfa4c3760dbfafebde/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-all-right/v/554d8df65c28c104eae700dfa4c3760dbfafebde/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-all-right/v/c6472156ef246ae0173528f7a1fd3805a8d87b70/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-all-right/v/c6472156ef246ae0173528f7a1fd3805a8d87b70/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-all-right/v/c6472156ef246ae0173528f7a1fd3805a8d87b70/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -79,10 +79,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-all-right/v/554d8df65c28c104eae700dfa4c3760dbfafebde/))
+([permalink](https://uiceds.github.io/project-team-all-right/v/c6472156ef246ae0173528f7a1fd3805a8d87b70/))
 was automatically generated
-from [uiceds/project-team-all-right@554d8df](https://github.com/uiceds/project-team-all-right/tree/554d8df65c28c104eae700dfa4c3760dbfafebde)
-on September 27, 2024.
+from [uiceds/project-team-all-right@c647215](https://github.com/uiceds/project-team-all-right/tree/c6472156ef246ae0173528f7a1fd3805a8d87b70)
+on September 28, 2024.
 </em></small>
 
 
@@ -94,7 +94,7 @@ on September 27, 2024.
 + **Yuhao**
   <br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
+    [0000-0000-0000-0000](https://orcid.org/0000-0000-0000-0000)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
     [johndoe](https://github.com/johndoe)
     · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
@@ -110,9 +110,9 @@ on September 27, 2024.
 + **Trix Li**
   ^[✉](#correspondence)^<br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
+    [0000-0000-0000-0000](https://orcid.org/0000-0000-0000-0000)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [janeroe](https://github.com/janeroe)
+    [trixli](https://github.com/trixli)
     <br>
   <small>
      Department of Something, University of Whatever; Department of Whatever, University of Something
@@ -121,9 +121,9 @@ on September 27, 2024.
 + **YUlin Zhu**
   ^[✉](#correspondence)^<br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
+    [0000-0000-0000-0000](https://orcid.org/0000-0000-0000-0000)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [janeroe](https://github.com/janeroe)
+    [yulinzhu](https://github.com/yulinzhu)
     <br>
   <small>
      Department of Something, University of Whatever; Department of Whatever, University of Something
@@ -132,9 +132,9 @@ on September 27, 2024.
 + **Jingfei Qiao**
   ^[✉](#correspondence)^<br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
+    [0000-0000-0000-0000](https://orcid.org/0000-0000-0000-0000)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [janeroe](https://github.com/janeroe)
+    [jingfeiqiao](https://github.com/jingfeiqiao)
     <br>
   <small>
      Department of Civil and Environmental Engineering, University of Whatever; Department of Whatever, University of Something
@@ -150,6 +150,25 @@ Jingfei Qiao \<jqiao3@illinois.edu\>.
 
 
 :::
+
+
+## Description of the Dataset
+__Source of Data:__
+
+The dataset for this project is obtained from the Energy Information Administration(EIA) website: U.S. Energy Information Administration - EIA - Independent Statistics and Analysis.
+
+__Data Generation:__
+
+The data gathered from the EIA website offers insights into the historical consumption rates of renewable energy sources, including hydroelectric power, solar energy, and biofuels, across the United States from 2000 to the present. 
+
+__Format and Contents:__
+
+The data is in a CSV file, making it accessible and easy to manipulate using standard data analysis tools. Key columns in the dataset include:
+	Year: From 2000 to present.
+	Region: The United States.
+	Hydroelectric_Power (GWh): Annual consumption of hydroelectric power.
+	Solar_Energy (GWh): Annual consumption of solar energy.
+	Biofuels (GWh): Annual consumption of biofuels.
 
 
 ## Research Proposal and Objectives

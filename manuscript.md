@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-10-28" />
   <meta name="citation_publication_date" content="2024-10-28" />
   <meta property="article:published_time" content="2024-10-28" />
-  <meta name="dc.modified" content="2024-10-28T04:27:39+00:00" />
-  <meta property="article:modified_time" content="2024-10-28T04:27:39+00:00" />
+  <meta name="dc.modified" content="2024-10-28T04:30:30+00:00" />
+  <meta property="article:modified_time" content="2024-10-28T04:30:30+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -55,9 +55,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-all-right/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-all-right/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-all-right/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-all-right/v/e7e297242468f8193cc71eef2702e96c486aa5e4/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-all-right/v/e7e297242468f8193cc71eef2702e96c486aa5e4/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-all-right/v/e7e297242468f8193cc71eef2702e96c486aa5e4/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-all-right/v/c77465238fae25c96693fa9bb5628eb2563ccf94/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-all-right/v/c77465238fae25c96693fa9bb5628eb2563ccf94/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-all-right/v/c77465238fae25c96693fa9bb5628eb2563ccf94/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -79,9 +79,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-all-right/v/e7e297242468f8193cc71eef2702e96c486aa5e4/))
+([permalink](https://uiceds.github.io/project-team-all-right/v/c77465238fae25c96693fa9bb5628eb2563ccf94/))
 was automatically generated
-from [uiceds/project-team-all-right@e7e2972](https://github.com/uiceds/project-team-all-right/tree/e7e297242468f8193cc71eef2702e96c486aa5e4)
+from [uiceds/project-team-all-right@c774652](https://github.com/uiceds/project-team-all-right/tree/c77465238fae25c96693fa9bb5628eb2563ccf94)
 on October 28, 2024.
 </em></small>
 
@@ -249,6 +249,9 @@ The analysis is expected to reveal the impact of wind speed and direction on pow
 
 
 ## References {.page_break_before}
+1. Yatiyana, E., Rajakaruna, S., & Ghosh, A. (2017, November). Wind speed and direction forecasting for wind power generation using ARIMA model. In 2017 Australasian universities power engineering conference (AUPEC) (pp. 1-6). IEEE.
+2. Wang, Z., & Liu, W. (2021). Wind energy potential assessment based on wind speed, its direction and power data. Scientific reports, 11(1), 16879.
+3. Daut, I. D. I., Irwanto, M. I. M., Suwarno, S., Irwan, Y. I. Y., Gomesh, N. G. N., & Ahmad, N. A. N. (2011). Potential of wind speed for wind power generation in Perlis, Northern Malaysia. TELKOMNIKA (Telecommunication Computing Electronics and Control), 9(3), 575-582.
 
 <!-- Explicitly insert bibliography here -->
 <div id="refs"></div>

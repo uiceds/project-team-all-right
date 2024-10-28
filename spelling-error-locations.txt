@@ -38,3 +38,16 @@ content/01.abstract.md:80:dataset
 content/01.abstract.md:84:LV
 content/01.abstract.md:84:LV
 content/01.abstract.md:86:LV
+content/90.back-matter.md:2:ARIMA
+content/90.back-matter.md:2:AUPEC
+content/90.back-matter.md:2:Ghosh
+content/90.back-matter.md:2:Rajakaruna
+content/90.back-matter.md:2:Yatiyana
+content/90.back-matter.md:3:Liu
+content/90.back-matter.md:4:Daut
+content/90.back-matter.md:4:Gomesh
+content/90.back-matter.md:4:Irwan
+content/90.back-matter.md:4:Irwanto
+content/90.back-matter.md:4:Perlis
+content/90.back-matter.md:4:Suwarno
+content/90.back-matter.md:4:TELKOMNIKA

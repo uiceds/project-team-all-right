@@ -56,8 +56,8 @@
   <meta name="dc.date" content="2024-10-28" />
   <meta name="citation_publication_date" content="2024-10-28" />
   <meta property="article:published_time" content="2024-10-28" />
-  <meta name="dc.modified" content="2024-10-28T03:53:30+00:00" />
-  <meta property="article:modified_time" content="2024-10-28T03:53:30+00:00" />
+  <meta name="dc.modified" content="2024-10-28T04:11:22+00:00" />
+  <meta property="article:modified_time" content="2024-10-28T04:11:22+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -86,9 +86,9 @@
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-all-right/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-all-right/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-all-right/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-all-right/v/ab3a575fc93f3abb6030bef26ca43f6440e4cf09/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-all-right/v/ab3a575fc93f3abb6030bef26ca43f6440e4cf09/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-all-right/v/ab3a575fc93f3abb6030bef26ca43f6440e4cf09/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-all-right/v/a053a4b4016e9a247c751f9bd605b152f89b177e/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-all-right/v/a053a4b4016e9a247c751f9bd605b152f89b177e/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-all-right/v/a053a4b4016e9a247c751f9bd605b152f89b177e/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -105,9 +105,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://uiceds.github.io/project-team-all-right/v/ab3a575fc93f3abb6030bef26ca43f6440e4cf09/">permalink</a>)
+(<a href="https://uiceds.github.io/project-team-all-right/v/a053a4b4016e9a247c751f9bd605b152f89b177e/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/uiceds/project-team-all-right/tree/ab3a575fc93f3abb6030bef26ca43f6440e4cf09">uiceds/project-team-all-right@ab3a575</a>
+from <a href="https://github.com/uiceds/project-team-all-right/tree/a053a4b4016e9a247c751f9bd605b152f89b177e">uiceds/project-team-all-right@a053a4b</a>
 on October 28, 2024.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -186,10 +186,40 @@ Wind Direction (°): The wind direction at the hub height of the turbine (wind t
 <li>Create scatter plots of Wind Speed vs. LV ActivePower to visualize the relationship between wind speed and power output.</li>
 <li>Use binning or smoothing techniques to examine how power generation responds to varying wind speeds, especially in low, moderate, and high wind conditions.</li>
 </ol>
-<figure>
-<img src="https://github.com/uiceds/project-team-all-right/blob/main/LV%20Active%20Power%20vs.%20Wind%20Speed.png" alt="image" />
-<figcaption aria-hidden="true">image</figcaption>
-</figure>
+<p><img src="https://github.com/uiceds/project-team-all-right/blob/main/LV%20Active%20Power%20vs.%20Wind%20Speed.png" alt="image" />
+The scatter plot of Wind Speed vs. LV Active Power, gives us the relationship of how power generation reacts as wind speed increases.</p>
+<p>At low wind speeds (0 - 5 m/s), the LV Active Power output is minimal. The graph shows a steep increase in power output as the wind speed increases. This indicates that the turbine starts generating power only after reaching a certain threshold wind speed. From around 5 to 10 m/s, there is a strong positive correlation between wind speed and power output. The power output increases almost linearly with the increase in wind speed. This phase suggests that the turbine captures more wind energy as the wind speed increases, leading to higher power generation. At wind speeds above approximately 10 to 12 m/s, the power output reaches a plateau near the turbine’s maximum power capacity of around 3500 kW. Even with increasing wind speeds (beyond 12 m/s), the power output does not increase and remains stable.</p>
+<p><strong>Wind Direction vs. Power Generation Analysis:</strong></p>
+<ol type="1">
+<li>Plot Wind Direction against LV ActivePower to investigate if specific wind directions are associated with higher power generation.</li>
+<li>Explore whether there is an optimal wind direction for energy generation, which could indicate an alignment effect with turbine orientation.</li>
+</ol>
+<p><img src="https://github.com/uiceds/project-team-all-right/blob/main/Power%20Generation%20vs.%20Wind%20Direction.png" alt="image" />
+The scatter plot of Wind Direction vs. LV Active Power gives us information about which wind direction the LV Active Power reaches its maximum generation power.</p>
+<p><img src="https://github.com/uiceds/project-team-all-right/blob/main/Polar%20Plot%20Wind%20Direction%20vs.%20Power%20Generation.png" alt="image" />
+The polar plot of wind direction vs. LV Active Power, gives us a more precise image from a spatial point of view.</p>
+<p>From the graphs, we can see there are specific ranges of wind directions where the LV Active Power reaches its maximum values, clustering at higher power output levels around 3500 kW. In the 0° to 60° range and 300° to 360° range, there is a dense concentration of points at higher power outputs, indicating that turbines generate more power when the wind comes from these directions. There is a clear pattern where specific wind directions correlate with higher and more consistent power outputs. These directions are likely more favorable for wind energy capture. For directions closer to 0°-60° and 300°-360°, the turbines consistently operate at higher power levels, suggesting these directions align well with the turbine’s optimal performance characteristics.</p>
+<p><strong>Theoretical vs. Actual Power Comparison:</strong></p>
+<ol type="1">
+<li>Compare LV ActivePower with Theoretical Power using scatter plots and regression analysis to determine how closely the actual output follows the theoretical predictions.</li>
+<li>Identify potential inefficiencies in the turbine operation that may contribute to gaps between actual and theoretical power.</li>
+</ol>
+<p><img src="https://github.com/uiceds/project-team-all-right/blob/main/WechatIMG734.png" alt="image" />
+The scatter plot of Wind Speed vs. LV Active Power and Theoretical Power tells us how closely Active Power and Theoretical Power are related. The R2 value is 0.874 in this graph, which shows that the data are statistically quite similar.</p>
+<p>From the graph, we can see the theoretical curve serves as an upper bound, showing the maximum potential for power generation given the wind speed. The actual data often falls below the theoretical curve, which is the real-world data. This could be due to real-world factors, like turbine efficiency, wind conditions, and operational factors.</p>
+<p><strong>Time Series and Seasonal Analysis:</strong></p>
+<ol type="1">
+<li>Analyze power output trends over time, considering seasonal or diurnal variations.</li>
+<li>Investigate if certain times of day or seasons show different power generation patterns due to changes in wind conditions.</li>
+</ol>
+<p><img src="https://github.com/uiceds/project-team-all-right/blob/main/1.png" alt="image" />
+The scatter plot of Time vs. Power (Active and Theoretical) tells us whether seasonality is a factor that affects power generation.</p>
+<p>There is no noticeable trend over time, indicating that power generation does not significantly vary with specific periods or seasons in the dataset. The consistent clustering of data points throughout the year implies that the main factors affecting power generation are not related to the time of the year but are more likely related to real environmental conditions, like wind speed and wind direction.</p>
+<h2 id="predictive-modeling">Predictive Modeling</h2>
+<p>Wind Speed shows the strongest correlation with LV Active Power, making it the most influential factor in determining power output. Wind Direction is the next significant factor impacting LV Active Power, indicating its influence on output variability. Based on these findings, developing a predictive model for power output is highly feasible and is expected to yield effective results.</p>
+<p>In terms of predictive variables, Wind Speed emerges as a primary predictor due to its strong correlation with LV Active Power, positioning it as a critical driver of power output. Wind Direction, as a secondary predictor, also shows a notable correlation, suggesting it contributes meaningfully to variations in power output.</p>
+<h2 id="expected-outcomes-and-rationale">Expected Outcomes and Rationale</h2>
+<p>The analysis is expected to reveal the impact of wind speed and direction on power generation efficiency. We anticipate that higher wind speeds will generally correlate with increased power output up to a certain threshold[3]. Understanding discrepancies between actual and theoretical power could highlight areas where turbine efficiency can be improved. This analysis could help in optimizing turbine operation, leading to better alignment with wind conditions and potentially increasing overall power output.</p>
 <h2 class="page_break_before" id="references">References</h2>
 <!-- Explicitly insert bibliography here -->
 <div id="refs" role="doc-bibliography">

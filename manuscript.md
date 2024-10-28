@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-10-28" />
   <meta name="citation_publication_date" content="2024-10-28" />
   <meta property="article:published_time" content="2024-10-28" />
-  <meta name="dc.modified" content="2024-10-28T03:42:00+00:00" />
-  <meta property="article:modified_time" content="2024-10-28T03:42:00+00:00" />
+  <meta name="dc.modified" content="2024-10-28T03:43:08+00:00" />
+  <meta property="article:modified_time" content="2024-10-28T03:43:08+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -55,9 +55,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-all-right/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-all-right/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-all-right/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-all-right/v/fcdc9d11ea2e4c587d4855620b259d0d0310f5f4/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-all-right/v/fcdc9d11ea2e4c587d4855620b259d0d0310f5f4/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-all-right/v/fcdc9d11ea2e4c587d4855620b259d0d0310f5f4/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-all-right/v/0971aeeb1ebcf4c03bcb0b074777badf47a5893b/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-all-right/v/0971aeeb1ebcf4c03bcb0b074777badf47a5893b/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-all-right/v/0971aeeb1ebcf4c03bcb0b074777badf47a5893b/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -79,9 +79,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-all-right/v/fcdc9d11ea2e4c587d4855620b259d0d0310f5f4/))
+([permalink](https://uiceds.github.io/project-team-all-right/v/0971aeeb1ebcf4c03bcb0b074777badf47a5893b/))
 was automatically generated
-from [uiceds/project-team-all-right@fcdc9d1](https://github.com/uiceds/project-team-all-right/tree/fcdc9d11ea2e4c587d4855620b259d0d0310f5f4)
+from [uiceds/project-team-all-right@0971aee](https://github.com/uiceds/project-team-all-right/tree/0971aeeb1ebcf4c03bcb0b074777badf47a5893b)
 on October 28, 2024.
 </em></small>
 
@@ -177,6 +177,16 @@ The data is in a CSV file, making it accessible and easy to manipulate using sta
 __Objectives:__
 
 Wind energy is a critical component in both large utility networks and small microgrids, providing numerous socio-economic benefits[1]. Two components specifically draw attention to wind power generation: wind speed and wind direction[2]. In this study, we focus on the potential impact on Wind Turbines and relationships between the main variables in a wind turbine SCADA dataset: LV ActivePower, Wind Speed, Wind Direction, and Theoretical Power. By understanding these relationships, we aim to gain the relationship between the natural wind conditions and the turbine's power output and identify potential optimization strategies for energy generation.
+
+## Data Analysis
+
+__Wind Speed vs. Power Generation Analysis:__
+
+	1. Create scatter plots of Wind Speed vs. LV ActivePower to visualize the relationship between wind speed and power output.
+
+	2. Use binning or smoothing techniques to examine how power generation responds to varying wind speeds, especially in low, 		moderate, and high wind conditions.
+ 
+
 
 
 

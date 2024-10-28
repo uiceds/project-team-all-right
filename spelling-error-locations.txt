@@ -20,3 +20,5 @@ content/01.abstract.md:25:LV
 content/01.abstract.md:25:microgrids
 content/01.abstract.md:25:SCADA
 content/01.abstract.md:25:socio
+content/01.abstract.md:31:ActivePower
+content/01.abstract.md:31:LV

@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-10-28" />
   <meta name="citation_publication_date" content="2024-10-28" />
   <meta property="article:published_time" content="2024-10-28" />
-  <meta name="dc.modified" content="2024-10-28T04:13:03+00:00" />
-  <meta property="article:modified_time" content="2024-10-28T04:13:03+00:00" />
+  <meta name="dc.modified" content="2024-10-28T04:17:40+00:00" />
+  <meta property="article:modified_time" content="2024-10-28T04:17:40+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -55,9 +55,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-all-right/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-all-right/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-all-right/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-all-right/v/2bdda8368e5038aab5152b593a627c357ca467d6/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-all-right/v/2bdda8368e5038aab5152b593a627c357ca467d6/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-all-right/v/2bdda8368e5038aab5152b593a627c357ca467d6/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-all-right/v/dbbd6f30ca8e89c07ac92b29365a76fe7c190161/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-all-right/v/dbbd6f30ca8e89c07ac92b29365a76fe7c190161/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-all-right/v/dbbd6f30ca8e89c07ac92b29365a76fe7c190161/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -79,9 +79,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-all-right/v/2bdda8368e5038aab5152b593a627c357ca467d6/))
+([permalink](https://uiceds.github.io/project-team-all-right/v/dbbd6f30ca8e89c07ac92b29365a76fe7c190161/))
 was automatically generated
-from [uiceds/project-team-all-right@2bdda83](https://github.com/uiceds/project-team-all-right/tree/2bdda8368e5038aab5152b593a627c357ca467d6)
+from [uiceds/project-team-all-right@dbbd6f3](https://github.com/uiceds/project-team-all-right/tree/dbbd6f30ca8e89c07ac92b29365a76fe7c190161)
 on October 28, 2024.
 </em></small>
 
@@ -186,7 +186,7 @@ __Wind Speed vs. Power Generation Analysis:__
 2. Use binning or smoothing techniques to examine how power generation responds to varying wind speeds, especially in low, 		moderate, and high wind conditions.
 
 ![image](https://github.com/uiceds/project-team-all-right/blob/main/LV%20Active%20Power%20vs.%20Wind%20Speed.png)
-The scatter plot of Wind Speed vs. LV Active Power, gives us the relationship of how power generation reacts as wind speed increases. 
+***The scatter plot of Wind Speed vs. LV Active Power, gives us the relationship of how power generation reacts as wind speed increases.***
 
 
 
@@ -198,12 +198,12 @@ __Wind Direction vs. Power Generation Analysis:__
 2. Explore whether there is an optimal wind direction for energy generation, which could indicate an alignment effect with turbine orientation.
 
 ![image](https://github.com/uiceds/project-team-all-right/blob/main/Power%20Generation%20vs.%20Wind%20Direction.png)
-The scatter plot of Wind Direction vs. LV Active Power gives us information about which wind direction the LV Active Power reaches its maximum generation power. 
+***The scatter plot of Wind Direction vs. LV Active Power gives us information about which wind direction the LV Active Power reaches its maximum generation power.***
 
 
 
 ![image](https://github.com/uiceds/project-team-all-right/blob/main/Polar%20Plot%20Wind%20Direction%20vs.%20Power%20Generation.png)
-The polar plot of wind direction vs. LV Active Power, gives us a more precise image from a spatial point of view. 
+***The polar plot of wind direction vs. LV Active Power, gives us a more precise image from a spatial point of view.***
 
 
 
@@ -215,7 +215,7 @@ __Theoretical vs. Actual Power Comparison:__
 2. Identify potential inefficiencies in the turbine operation that may contribute to gaps between actual and theoretical power.
 
 ![image](https://github.com/uiceds/project-team-all-right/blob/main/WechatIMG734.png)
-The scatter plot of Wind Speed vs. LV Active Power and Theoretical Power tells us how closely Active Power and Theoretical Power are related. The R2 value is 0.874 in this graph, which shows that the data are statistically quite similar. 
+***The scatter plot of Wind Speed vs. LV Active Power and Theoretical Power tells us how closely Active Power and Theoretical Power are related. The R2 value is 0.874 in this graph, which shows that the data are statistically quite similar.***
 
 
 
@@ -227,7 +227,7 @@ __Time Series and Seasonal Analysis:__
 2. Investigate if certain times of day or seasons show different power generation patterns due to changes in wind conditions.
 
 ![image](https://github.com/uiceds/project-team-all-right/blob/main/1.png)
-The scatter plot of Time vs. Power (Active and Theoretical) tells us whether seasonality is a factor that affects power generation. 
+***The scatter plot of Time vs. Power (Active and Theoretical) tells us whether seasonality is a factor that affects power generation.*** 
 
 
 

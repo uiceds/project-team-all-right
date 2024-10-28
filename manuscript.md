@@ -1,11 +1,11 @@
 ---
-title: 'Forecasting Future Trends in Sustainable Energy Consumption: A Data-Driven Approach Using Historical Data on Hydroelectric, Solar, and Biofuel Energy Sources'
+title: 'Analysis and Optimization of Wind Turbine Power Generation Using Supervisory Control and Data Acquisition(SCADA) Data: Exploring the Impact of Wind Speed and Direction on Performance'
 keywords:
 - markdown
 - publishing
 - manubot
 lang: en-US
-date-meta: '2024-09-28'
+date-meta: '2024-10-28'
 author-meta:
 - Yuhao
 - Trix Li
@@ -18,15 +18,15 @@ header-includes: |
   -->
   <meta name="dc.format" content="text/html" />
   <meta property="og:type" content="article" />
-  <meta name="dc.title" content="Forecasting Future Trends in Sustainable Energy Consumption: A Data-Driven Approach Using Historical Data on Hydroelectric, Solar, and Biofuel Energy Sources" />
-  <meta name="citation_title" content="Forecasting Future Trends in Sustainable Energy Consumption: A Data-Driven Approach Using Historical Data on Hydroelectric, Solar, and Biofuel Energy Sources" />
-  <meta property="og:title" content="Forecasting Future Trends in Sustainable Energy Consumption: A Data-Driven Approach Using Historical Data on Hydroelectric, Solar, and Biofuel Energy Sources" />
-  <meta property="twitter:title" content="Forecasting Future Trends in Sustainable Energy Consumption: A Data-Driven Approach Using Historical Data on Hydroelectric, Solar, and Biofuel Energy Sources" />
-  <meta name="dc.date" content="2024-09-28" />
-  <meta name="citation_publication_date" content="2024-09-28" />
-  <meta property="article:published_time" content="2024-09-28" />
-  <meta name="dc.modified" content="2024-09-28T19:48:18+00:00" />
-  <meta property="article:modified_time" content="2024-09-28T19:48:18+00:00" />
+  <meta name="dc.title" content="Analysis and Optimization of Wind Turbine Power Generation Using Supervisory Control and Data Acquisition(SCADA) Data: Exploring the Impact of Wind Speed and Direction on Performance" />
+  <meta name="citation_title" content="Analysis and Optimization of Wind Turbine Power Generation Using Supervisory Control and Data Acquisition(SCADA) Data: Exploring the Impact of Wind Speed and Direction on Performance" />
+  <meta property="og:title" content="Analysis and Optimization of Wind Turbine Power Generation Using Supervisory Control and Data Acquisition(SCADA) Data: Exploring the Impact of Wind Speed and Direction on Performance" />
+  <meta property="twitter:title" content="Analysis and Optimization of Wind Turbine Power Generation Using Supervisory Control and Data Acquisition(SCADA) Data: Exploring the Impact of Wind Speed and Direction on Performance" />
+  <meta name="dc.date" content="2024-10-28" />
+  <meta name="citation_publication_date" content="2024-10-28" />
+  <meta property="article:published_time" content="2024-10-28" />
+  <meta name="dc.modified" content="2024-10-28T03:13:15+00:00" />
+  <meta property="article:modified_time" content="2024-10-28T03:13:15+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -55,9 +55,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-all-right/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-all-right/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-all-right/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-all-right/v/d568b0e3e1300a56bb7dbda3dc647a69a6a9df35/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-all-right/v/d568b0e3e1300a56bb7dbda3dc647a69a6a9df35/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-all-right/v/d568b0e3e1300a56bb7dbda3dc647a69a6a9df35/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-all-right/v/158f5758a6991e9c33451be02030d351dd80617c/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-all-right/v/158f5758a6991e9c33451be02030d351dd80617c/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-all-right/v/158f5758a6991e9c33451be02030d351dd80617c/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -79,10 +79,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-all-right/v/d568b0e3e1300a56bb7dbda3dc647a69a6a9df35/))
+([permalink](https://uiceds.github.io/project-team-all-right/v/158f5758a6991e9c33451be02030d351dd80617c/))
 was automatically generated
-from [uiceds/project-team-all-right@d568b0e](https://github.com/uiceds/project-team-all-right/tree/d568b0e3e1300a56bb7dbda3dc647a69a6a9df35)
-on September 28, 2024.
+from [uiceds/project-team-all-right@158f575](https://github.com/uiceds/project-team-all-right/tree/158f5758a6991e9c33451be02030d351dd80617c)
+on October 28, 2024.
 </em></small>
 
 

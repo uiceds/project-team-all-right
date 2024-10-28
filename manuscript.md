@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-10-28" />
   <meta name="citation_publication_date" content="2024-10-28" />
   <meta property="article:published_time" content="2024-10-28" />
-  <meta name="dc.modified" content="2024-10-28T03:47:22+00:00" />
-  <meta property="article:modified_time" content="2024-10-28T03:47:22+00:00" />
+  <meta name="dc.modified" content="2024-10-28T03:53:30+00:00" />
+  <meta property="article:modified_time" content="2024-10-28T03:53:30+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -55,9 +55,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-all-right/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-all-right/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-all-right/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-all-right/v/efdcc5586388eb40feddbfc826f8f6cd3a79c05c/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-all-right/v/efdcc5586388eb40feddbfc826f8f6cd3a79c05c/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-all-right/v/efdcc5586388eb40feddbfc826f8f6cd3a79c05c/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-all-right/v/ab3a575fc93f3abb6030bef26ca43f6440e4cf09/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-all-right/v/ab3a575fc93f3abb6030bef26ca43f6440e4cf09/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-all-right/v/ab3a575fc93f3abb6030bef26ca43f6440e4cf09/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -79,9 +79,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-all-right/v/efdcc5586388eb40feddbfc826f8f6cd3a79c05c/))
+([permalink](https://uiceds.github.io/project-team-all-right/v/ab3a575fc93f3abb6030bef26ca43f6440e4cf09/))
 was automatically generated
-from [uiceds/project-team-all-right@efdcc55](https://github.com/uiceds/project-team-all-right/tree/efdcc5586388eb40feddbfc826f8f6cd3a79c05c)
+from [uiceds/project-team-all-right@ab3a575](https://github.com/uiceds/project-team-all-right/tree/ab3a575fc93f3abb6030bef26ca43f6440e4cf09)
 on October 28, 2024.
 </em></small>
 
@@ -167,7 +167,7 @@ The data is in a CSV file, making it accessible and easy to manipulate using sta
 	Date/Time (for 10-minute intervals).
 	LV ActivePower (kW): The power the turbine generates for that moment.
 	Wind Speed (m/s): The wind speed at the turbine's hub height (the wind speed that the turbine uses for electricity generation).
-	Theoretical_Power_Curve (KWh): The theoretical power values that the turbine generates with that wind speed are given by the manufacturer.
+	Theoretical_Power_Curve (KWh): The theoretical power values that the turbine generates with that wind speed are given by the 		manufacturer.
 	Wind Direction (°): The wind direction at the hub height of the turbine (wind turbines turn to this direction automatically.
 
 
@@ -182,10 +182,10 @@ Wind energy is a critical component in both large utility networks and small mic
 
 __Wind Speed vs. Power Generation Analysis:__
 
-	Create scatter plots of Wind Speed vs. LV ActivePower to visualize the relationship between wind speed and power output.
+1. Create scatter plots of Wind Speed vs. LV ActivePower to visualize the relationship between wind speed and power output.
+2. Use binning or smoothing techniques to examine how power generation responds to varying wind speeds, especially in low, 		moderate, and high wind conditions.
 
-	Use binning or smoothing techniques to examine how power generation responds to varying wind speeds, especially in low, 		moderate, and high wind conditions.
- !(https://github.com/uiceds/project-team-all-right/blob/main/LV%20Active%20Power%20vs.%20Wind%20Speed.png)
+![image](https://github.com/uiceds/project-team-all-right/blob/main/LV%20Active%20Power%20vs.%20Wind%20Speed.png)
  
 
 

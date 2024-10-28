@@ -1,5 +1,5 @@
 ---
-title: 'Analysis and Optimization of Wind Turbine Power Generation Using Supervisory Control and Data Acquisition(SCADA) Data: Exploring the Impact of Wind Speed and Direction on Performance '
+title: 'Analysis and Optimization of Wind Turbine Power Generation Using Supervisory Control and Data Acquisition(SCADA) Data: Exploring the Impact of Wind Speed and Direction on Performance'
 keywords:
 - markdown
 - publishing
@@ -18,15 +18,15 @@ header-includes: |
   -->
   <meta name="dc.format" content="text/html" />
   <meta property="og:type" content="article" />
-  <meta name="dc.title" content="Analysis and Optimization of Wind Turbine Power Generation Using Supervisory Control and Data Acquisition(SCADA) Data: Exploring the Impact of Wind Speed and Direction on Performance " />
-  <meta name="citation_title" content="Analysis and Optimization of Wind Turbine Power Generation Using Supervisory Control and Data Acquisition(SCADA) Data: Exploring the Impact of Wind Speed and Direction on Performance " />
-  <meta property="og:title" content="Analysis and Optimization of Wind Turbine Power Generation Using Supervisory Control and Data Acquisition(SCADA) Data: Exploring the Impact of Wind Speed and Direction on Performance " />
-  <meta property="twitter:title" content="Analysis and Optimization of Wind Turbine Power Generation Using Supervisory Control and Data Acquisition(SCADA) Data: Exploring the Impact of Wind Speed and Direction on Performance " />
+  <meta name="dc.title" content="Analysis and Optimization of Wind Turbine Power Generation Using Supervisory Control and Data Acquisition(SCADA) Data: Exploring the Impact of Wind Speed and Direction on Performance" />
+  <meta name="citation_title" content="Analysis and Optimization of Wind Turbine Power Generation Using Supervisory Control and Data Acquisition(SCADA) Data: Exploring the Impact of Wind Speed and Direction on Performance" />
+  <meta property="og:title" content="Analysis and Optimization of Wind Turbine Power Generation Using Supervisory Control and Data Acquisition(SCADA) Data: Exploring the Impact of Wind Speed and Direction on Performance" />
+  <meta property="twitter:title" content="Analysis and Optimization of Wind Turbine Power Generation Using Supervisory Control and Data Acquisition(SCADA) Data: Exploring the Impact of Wind Speed and Direction on Performance" />
   <meta name="dc.date" content="2024-10-28" />
   <meta name="citation_publication_date" content="2024-10-28" />
   <meta property="article:published_time" content="2024-10-28" />
-  <meta name="dc.modified" content="2024-10-28T03:14:01+00:00" />
-  <meta property="article:modified_time" content="2024-10-28T03:14:01+00:00" />
+  <meta name="dc.modified" content="2024-10-28T03:23:38+00:00" />
+  <meta property="article:modified_time" content="2024-10-28T03:23:38+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -55,9 +55,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-all-right/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-all-right/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-all-right/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-all-right/v/e7fb2a7c56b8c7f07b8d6b24820f1eb8b5984896/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-all-right/v/e7fb2a7c56b8c7f07b8d6b24820f1eb8b5984896/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-all-right/v/e7fb2a7c56b8c7f07b8d6b24820f1eb8b5984896/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-all-right/v/0c0f88e018f2b2ab4973916a40cbfe81c0297ad5/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-all-right/v/0c0f88e018f2b2ab4973916a40cbfe81c0297ad5/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-all-right/v/0c0f88e018f2b2ab4973916a40cbfe81c0297ad5/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -79,9 +79,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-all-right/v/e7fb2a7c56b8c7f07b8d6b24820f1eb8b5984896/))
+([permalink](https://uiceds.github.io/project-team-all-right/v/0c0f88e018f2b2ab4973916a40cbfe81c0297ad5/))
 was automatically generated
-from [uiceds/project-team-all-right@e7fb2a7](https://github.com/uiceds/project-team-all-right/tree/e7fb2a7c56b8c7f07b8d6b24820f1eb8b5984896)
+from [uiceds/project-team-all-right@0c0f88e](https://github.com/uiceds/project-team-all-right/tree/0c0f88e018f2b2ab4973916a40cbfe81c0297ad5)
 on October 28, 2024.
 </em></small>
 
@@ -155,39 +155,29 @@ Jingfei Qiao \<jqiao3@illinois.edu\>.
 ## Description of the Dataset
 __Source of Data:__
 
-The dataset for this project is obtained from the Energy Information Administration(EIA) website: U.S. Energy Information Administration - EIA - Independent Statistics and Analysis.
+The data originates from Kaggle, specifically from the dataset titled “Wind Turbine SCADA Dataset” uploaded by the user Berker İsen. This dataset is publicly accessible. The dataset includes SCADA (Supervisory Control and Data Acquisition) data collected from wind turbines, which is commonly used for monitoring and managing wind turbine operations.
 
 __Data Generation:__
 
-The data gathered from the EIA website offers insights into the historical consumption rates of renewable energy sources, including hydroelectric power, solar energy, and biofuels, across the United States from 2000 to the present. 
+In Wind Turbines, SCADA systems measure and save data like wind speed, wind direction, generated power, etc., for 10-minute intervals. This file was taken from a wind turbine's SCADA system that is working and generating power in Turkey.
 
 __Format and Contents:__
 
 The data is in a CSV file, making it accessible and easy to manipulate using standard data analysis tools. Key columns in the dataset include:
-	Year: From 2000 to present.
-	Region: The United States.
-	Hydroelectric_Power (GWh): Annual consumption of hydroelectric power.
-	Solar_Energy (GWh): Annual consumption of solar energy.
-	Biofuels (GWh): Annual consumption of biofuels.
+	Date/Time (for 10-minute intervals).
+	LV ActivePower (kW): The power the turbine generates for that moment.
+	Wind Speed (m/s): The wind speed at the turbine's hub height (the wind speed that the turbine uses for electricity generation).
+	Theoretical_Power_Curve (KWh): The theoretical power values that the turbine generates with that wind speed are given by the manufacturer.
+	Wind Direction (°): The wind direction at the hub height of the turbine (wind turbines turn to this direction automatically.
 
 
-## Research Proposal and Objectives
-__Proposal Overview:__
 
-The historical data that we have collected from EIA regarding sustainable energy consumption will be utilized in the process of developing predictive models for the purpose of forecasting future patterns of likely sustainable energy consumption distribution. This particular research will primarily focus on three types of sustainable energy sources: hydroelectric power, solar energy, and biofuels. We will create an advanced data science model, using historical data for analysis and identifying the trending patterns (location-wise, seasonal-wise) for future potential clean energy consumption shift forecasting model creation. 
+## Research Objectives
 
 __Objectives:__
 
-Strategic Planning: This study provides a better understanding of future consumption trends, which can help policymakers and companies for future energy production, infrastructure development (energy selection),  and investment in sustainable energy resources(ESG sustainable energy investment). With this model, a solid data-driven decision could be made based on a more comprehensive understanding of future energy consumption patterns. This could potentially reduce the risk of the strategized decision, and a more predictable future results in more responsible decision-making for the energy sector. 
+Wind energy is a critical component in both large utility networks and small microgrids, providing numerous socio-economic benefits[1]. Two components specifically draw attention to wind power generation: wind speed and wind direction[2]. In this study, we focus on the potential impact on Wind Turbines and relationships between the main variables in a wind turbine SCADA dataset: LV ActivePower, Wind Speed, Wind Direction, and Theoretical Power. By understanding these relationships, we aim to gain the relationship between the natural wind conditions and the turbine's power output and identify potential optimization strategies for energy generation.
 
-Environmental Impact: This research aims to reduce carbon footprints and contribute to developing more environmentally friendly energy solutions in the future. This can have a positive impact on the environmental problems we are facing. 
-
-In the process, we will:
-
-Make reasonable predictions about future energy consumption based on the data set of historical consumption.
-Apply various forecasting models to evaluate which model provides the best fit and most accurate predictions based on historical data by adding different influence factors.
-Implement sensitivity analysis among external factors that could influence sustainable energy consumption, such as economic indicators, technological advancements, and policy changes, and determine the weights that each factor contribute. 
-We will use Julia for data processing to analyze the dataset and provide valuable insights into the dynamics of sustainable energy usage, supporting the US transition to more sustainable and environmentally friendly energy systems.
 
 
 

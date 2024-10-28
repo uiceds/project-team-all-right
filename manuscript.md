@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-10-28" />
   <meta name="citation_publication_date" content="2024-10-28" />
   <meta property="article:published_time" content="2024-10-28" />
-  <meta name="dc.modified" content="2024-10-28T03:46:10+00:00" />
-  <meta property="article:modified_time" content="2024-10-28T03:46:10+00:00" />
+  <meta name="dc.modified" content="2024-10-28T03:47:22+00:00" />
+  <meta property="article:modified_time" content="2024-10-28T03:47:22+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -55,9 +55,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-all-right/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-all-right/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-all-right/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-all-right/v/cff7ae991ede7d35d3e563b99401165da5b9eac1/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-all-right/v/cff7ae991ede7d35d3e563b99401165da5b9eac1/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-all-right/v/cff7ae991ede7d35d3e563b99401165da5b9eac1/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-all-right/v/efdcc5586388eb40feddbfc826f8f6cd3a79c05c/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-all-right/v/efdcc5586388eb40feddbfc826f8f6cd3a79c05c/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-all-right/v/efdcc5586388eb40feddbfc826f8f6cd3a79c05c/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -79,9 +79,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-all-right/v/cff7ae991ede7d35d3e563b99401165da5b9eac1/))
+([permalink](https://uiceds.github.io/project-team-all-right/v/efdcc5586388eb40feddbfc826f8f6cd3a79c05c/))
 was automatically generated
-from [uiceds/project-team-all-right@cff7ae9](https://github.com/uiceds/project-team-all-right/tree/cff7ae991ede7d35d3e563b99401165da5b9eac1)
+from [uiceds/project-team-all-right@efdcc55](https://github.com/uiceds/project-team-all-right/tree/efdcc5586388eb40feddbfc826f8f6cd3a79c05c)
 on October 28, 2024.
 </em></small>
 
@@ -185,7 +185,7 @@ __Wind Speed vs. Power Generation Analysis:__
 	Create scatter plots of Wind Speed vs. LV ActivePower to visualize the relationship between wind speed and power output.
 
 	Use binning or smoothing techniques to examine how power generation responds to varying wind speeds, especially in low, 		moderate, and high wind conditions.
- https://github.com/uiceds/project-team-all-right/blob/main/LV%20Active%20Power%20vs.%20Wind%20Speed.png
+ !(https://github.com/uiceds/project-team-all-right/blob/main/LV%20Active%20Power%20vs.%20Wind%20Speed.png)
  
 
 

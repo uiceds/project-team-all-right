@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-10-28" />
   <meta name="citation_publication_date" content="2024-10-28" />
   <meta property="article:published_time" content="2024-10-28" />
-  <meta name="dc.modified" content="2024-10-28T04:12:07+00:00" />
-  <meta property="article:modified_time" content="2024-10-28T04:12:07+00:00" />
+  <meta name="dc.modified" content="2024-10-28T04:13:03+00:00" />
+  <meta property="article:modified_time" content="2024-10-28T04:13:03+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -55,9 +55,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-all-right/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-all-right/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-all-right/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-all-right/v/a93367d341da81573a3301145a4dc3918eee2990/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-all-right/v/a93367d341da81573a3301145a4dc3918eee2990/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-all-right/v/a93367d341da81573a3301145a4dc3918eee2990/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-all-right/v/2bdda8368e5038aab5152b593a627c357ca467d6/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-all-right/v/2bdda8368e5038aab5152b593a627c357ca467d6/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-all-right/v/2bdda8368e5038aab5152b593a627c357ca467d6/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -79,9 +79,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-all-right/v/a93367d341da81573a3301145a4dc3918eee2990/))
+([permalink](https://uiceds.github.io/project-team-all-right/v/2bdda8368e5038aab5152b593a627c357ca467d6/))
 was automatically generated
-from [uiceds/project-team-all-right@a93367d](https://github.com/uiceds/project-team-all-right/tree/a93367d341da81573a3301145a4dc3918eee2990)
+from [uiceds/project-team-all-right@2bdda83](https://github.com/uiceds/project-team-all-right/tree/2bdda8368e5038aab5152b593a627c357ca467d6)
 on October 28, 2024.
 </em></small>
 
@@ -187,6 +187,8 @@ __Wind Speed vs. Power Generation Analysis:__
 
 ![image](https://github.com/uiceds/project-team-all-right/blob/main/LV%20Active%20Power%20vs.%20Wind%20Speed.png)
 The scatter plot of Wind Speed vs. LV Active Power, gives us the relationship of how power generation reacts as wind speed increases. 
+
+
 
 At low wind speeds (0 - 5 m/s), the LV Active Power output is minimal. The graph shows a steep increase in power output as the wind speed increases. This indicates that the turbine starts generating power only after reaching a certain threshold wind speed. From around 5 to 10 m/s, there is a strong positive correlation between wind speed and power output. The power output increases almost linearly with the increase in wind speed. This phase suggests that the turbine captures more wind energy as the wind speed increases, leading to higher power generation. At wind speeds above approximately 10 to 12 m/s, the power output reaches a plateau near the turbine’s maximum power capacity of around 3500 kW. Even with increasing wind speeds (beyond 12 m/s), the power output does not increase and remains stable.
 

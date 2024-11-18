@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-11-18" />
   <meta name="citation_publication_date" content="2024-11-18" />
   <meta property="article:published_time" content="2024-11-18" />
-  <meta name="dc.modified" content="2024-11-18T06:12:47+00:00" />
-  <meta property="article:modified_time" content="2024-11-18T06:12:47+00:00" />
+  <meta name="dc.modified" content="2024-11-18T06:13:53+00:00" />
+  <meta property="article:modified_time" content="2024-11-18T06:13:53+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -55,9 +55,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-all-right/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-all-right/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-all-right/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-all-right/v/1d826bc7edab2ecd1154de0fb649a1894bbe492c/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-all-right/v/1d826bc7edab2ecd1154de0fb649a1894bbe492c/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-all-right/v/1d826bc7edab2ecd1154de0fb649a1894bbe492c/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-all-right/v/42eaad7402cc68c1a3925138093d4702b7e74daa/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-all-right/v/42eaad7402cc68c1a3925138093d4702b7e74daa/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-all-right/v/42eaad7402cc68c1a3925138093d4702b7e74daa/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -79,9 +79,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-all-right/v/1d826bc7edab2ecd1154de0fb649a1894bbe492c/))
+([permalink](https://uiceds.github.io/project-team-all-right/v/42eaad7402cc68c1a3925138093d4702b7e74daa/))
 was automatically generated
-from [uiceds/project-team-all-right@1d826bc](https://github.com/uiceds/project-team-all-right/tree/1d826bc7edab2ecd1154de0fb649a1894bbe492c)
+from [uiceds/project-team-all-right@42eaad7](https://github.com/uiceds/project-team-all-right/tree/42eaad7402cc68c1a3925138093d4702b7e74daa)
 on November 18, 2024.
 </em></small>
 
@@ -280,7 +280,7 @@ The scatter plot shows a linear trend between actual and predicted values, with 
 __Linear Regression:__
 A multiple linear regression model was used because it is a straightforward method for analyzing relationships between multiple predictors and the target variable. Polynomial terms allow the model to account for non-linear relationships in the data.
 
-![image](https://github.com/uiceds/project-team-all-right/blob/main/Linear%20Regression.png?raw=true){width=90%}
+![image](https://github.com/uiceds/project-team-all-right/blob/main/%201%20LR.png?raw=true){width=90%}
 ***Standardized scatter plot of Actual vs. Predicted LV Active Power for Linear Regression model.***
 
 Predictive Performance(Decision Tree): 

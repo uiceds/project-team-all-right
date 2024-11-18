@@ -3,7 +3,7 @@ ARIMA
 AUPEC
 Berker
 CSV
-Dataset
+dataset
 Daut
 Ghosh
 Gomesh

@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-11-18" />
   <meta name="citation_publication_date" content="2024-11-18" />
   <meta property="article:published_time" content="2024-11-18" />
-  <meta name="dc.modified" content="2024-11-18T06:04:47+00:00" />
-  <meta property="article:modified_time" content="2024-11-18T06:04:47+00:00" />
+  <meta name="dc.modified" content="2024-11-18T06:09:42+00:00" />
+  <meta property="article:modified_time" content="2024-11-18T06:09:42+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -55,9 +55,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-all-right/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-all-right/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-all-right/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-all-right/v/23ef7395e1f75f509f8dd213d639a8c49b1f8ea9/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-all-right/v/23ef7395e1f75f509f8dd213d639a8c49b1f8ea9/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-all-right/v/23ef7395e1f75f509f8dd213d639a8c49b1f8ea9/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-all-right/v/256ba73b2ef64ee4e2da7357b7e6164e1d73ddcd/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-all-right/v/256ba73b2ef64ee4e2da7357b7e6164e1d73ddcd/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-all-right/v/256ba73b2ef64ee4e2da7357b7e6164e1d73ddcd/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -79,9 +79,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-all-right/v/23ef7395e1f75f509f8dd213d639a8c49b1f8ea9/))
+([permalink](https://uiceds.github.io/project-team-all-right/v/256ba73b2ef64ee4e2da7357b7e6164e1d73ddcd/))
 was automatically generated
-from [uiceds/project-team-all-right@23ef739](https://github.com/uiceds/project-team-all-right/tree/23ef7395e1f75f509f8dd213d639a8c49b1f8ea9)
+from [uiceds/project-team-all-right@256ba73](https://github.com/uiceds/project-team-all-right/tree/256ba73b2ef64ee4e2da7357b7e6164e1d73ddcd)
 on November 18, 2024.
 </em></small>
 
@@ -256,6 +256,7 @@ K-means clustering was applied to group the dataset into k=3 clusters based on t
 ***Standardized scatter plot of Actual vs. Predicted LV Active Power for K-means model. The red line in the graph is the perfect prediction line for better comparison.***
 
 Predictive Performance(K-means):
+
 MSE (Mean Squared Error): 0.0952
 
 RMSE (Root Mean Squared Error): 0.309
@@ -269,6 +270,7 @@ The decision Tree model was chosen because it can handle non-linear relationship
 ***Standardized scatter plot of Actual vs. Predicted LV Active Power for Decision Tree model.***
 
 Predictive Performance(Decision Tree):
+
 Mean Squared Error (MSE): 0.174
 
 Root Mean Squared Error (RMSE): 0.418
@@ -282,6 +284,7 @@ A multiple linear regression model was used because it is a straightforward meth
 ***Standardized scatter plot of Actual vs. Predicted LV Active Power for Linear Regression model.***
 
 Predictive Performance(Decision Tree): 
+
 Mean Squared Error (MSE): 0.0963
 
 Root Mean Squared Error (RMSE): 0.310
@@ -295,6 +298,7 @@ A Random Forest model was selected for its ability to handle non-linear relation
 ***Standardized scatter plot of Actual vs. Predicted LV Active Power for Random Forest model.***
 
 Predictive Performance(Random Forest):
+
 Mean Squared Error (MSE): 0.0948
 
 Root Mean Squared Error (RMSE): 0.308

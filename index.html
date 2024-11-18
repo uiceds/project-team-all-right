@@ -56,8 +56,8 @@
   <meta name="dc.date" content="2024-11-18" />
   <meta name="citation_publication_date" content="2024-11-18" />
   <meta property="article:published_time" content="2024-11-18" />
-  <meta name="dc.modified" content="2024-11-18T06:13:53+00:00" />
-  <meta property="article:modified_time" content="2024-11-18T06:13:53+00:00" />
+  <meta name="dc.modified" content="2024-11-18T18:33:26+00:00" />
+  <meta property="article:modified_time" content="2024-11-18T18:33:26+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -86,9 +86,9 @@
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-all-right/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-all-right/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-all-right/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-all-right/v/42eaad7402cc68c1a3925138093d4702b7e74daa/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-all-right/v/42eaad7402cc68c1a3925138093d4702b7e74daa/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-all-right/v/42eaad7402cc68c1a3925138093d4702b7e74daa/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-all-right/v/182dc71ff7b2f713bc055d17166bcdad75e27452/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-all-right/v/182dc71ff7b2f713bc055d17166bcdad75e27452/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-all-right/v/182dc71ff7b2f713bc055d17166bcdad75e27452/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -105,9 +105,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://uiceds.github.io/project-team-all-right/v/42eaad7402cc68c1a3925138093d4702b7e74daa/">permalink</a>)
+(<a href="https://uiceds.github.io/project-team-all-right/v/182dc71ff7b2f713bc055d17166bcdad75e27452/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/uiceds/project-team-all-right/tree/42eaad7402cc68c1a3925138093d4702b7e74daa">uiceds/project-team-all-right@42eaad7</a>
+from <a href="https://github.com/uiceds/project-team-all-right/tree/182dc71ff7b2f713bc055d17166bcdad75e27452">uiceds/project-team-all-right@182dc71</a>
 on November 18, 2024.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -267,6 +267,19 @@ Its simplicity and interpretability make it practical for capturing primary tren
 <p>K-means(enhanced linear regression model): With an MSE of 0.0952 and RMSE of 0.309, it improved based on standard Linear Regression by incorporating cluster-specific information. The K-means model captured subgroup-specific trends, but its dependency on clustering quality introduced variability in performance.</p>
 <p>Random Forest: With the lowest MSE of 0.0948 and RMSE of 0.308, it performed the best within the four models. Despite minor variations at extreme values, its ensemble structure and resilience to non-linearities enabled it to generalize across the dataset effectively. Random Forest is the best model for forecasting LV Active Power because of its higher accuracy and resilience, despite its higher computational cost.</p>
 <p>Overall, Random Forest is recommended as the best model due to its ability to handle complex data relationships, whereas simpler models like Linear Regression and K-Means offer interpretable and competitive alternatives for less complex tasks.</p>
+<h2 id="research-question-analysis">Research Question Analysis</h2>
+<p><strong>Wind Speed:</strong> During the data analysis and predictive modeling, wind speed consistently showed a strong positive correlation with LV Active Power generation.</p>
+<ol type="1">
+<li>In the Linear Regression model, the coefficient for wind speed was the largest among the preditors, which indicating its dominant impact in power generation.</li>
+<li>In Random Forest and Decision Tree models, they also highlighted wind speed as the most important feature during feature importance analysis.</li>
+</ol>
+<p><strong>Wind Direction:</strong> Compared with wind speed, wind direction’s contribution was smaller but noticeable.</p>
+<ol type="1">
+<li>Feature importance from Random Forest and Decision Tree models: the wind direction was ranked behind wind speed.</li>
+<li>Based on the data analysis and predictive modeling, the slight but consistent impact of wind direction reflects how turbine alignment with the incoming wind flow affects the power output. Turbines operate optimally in directions 0° to 60° range and 300° to 360° range.</li>
+</ol>
+<h2 id="analysis-conclusion">Analysis Conclusion</h2>
+<p>The findings show that wind speed is the most important predictor, accounting for the majority of power output variation. Wind direction, on the other hand, provides important context by taking turbine alignment-related efficiency changes into consideration. These insights are consistent across both linear and non-linear models, supported by feature importance rankings, improved accuracy with polynomial terms, and observed trends in data analysis and prediction models.</p>
 <h2 class="page_break_before" id="references">References</h2>
 <ol type="1">
 <li>Yatiyana, E., Rajakaruna, S., &amp; Ghosh, A. (2017, November). Wind speed and direction forecasting for wind power generation using ARIMA model. In 2017 Australasian universities power engineering conference (AUPEC) (pp. 1-6). IEEE.</li>

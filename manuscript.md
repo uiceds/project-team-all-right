@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-11-18" />
   <meta name="citation_publication_date" content="2024-11-18" />
   <meta property="article:published_time" content="2024-11-18" />
-  <meta name="dc.modified" content="2024-11-18T06:13:53+00:00" />
-  <meta property="article:modified_time" content="2024-11-18T06:13:53+00:00" />
+  <meta name="dc.modified" content="2024-11-18T18:33:26+00:00" />
+  <meta property="article:modified_time" content="2024-11-18T18:33:26+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -55,9 +55,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-all-right/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-all-right/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-all-right/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-all-right/v/42eaad7402cc68c1a3925138093d4702b7e74daa/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-all-right/v/42eaad7402cc68c1a3925138093d4702b7e74daa/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-all-right/v/42eaad7402cc68c1a3925138093d4702b7e74daa/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-all-right/v/182dc71ff7b2f713bc055d17166bcdad75e27452/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-all-right/v/182dc71ff7b2f713bc055d17166bcdad75e27452/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-all-right/v/182dc71ff7b2f713bc055d17166bcdad75e27452/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -79,9 +79,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-all-right/v/42eaad7402cc68c1a3925138093d4702b7e74daa/))
+([permalink](https://uiceds.github.io/project-team-all-right/v/182dc71ff7b2f713bc055d17166bcdad75e27452/))
 was automatically generated
-from [uiceds/project-team-all-right@42eaad7](https://github.com/uiceds/project-team-all-right/tree/42eaad7402cc68c1a3925138093d4702b7e74daa)
+from [uiceds/project-team-all-right@182dc71](https://github.com/uiceds/project-team-all-right/tree/182dc71ff7b2f713bc055d17166bcdad75e27452)
 on November 18, 2024.
 </em></small>
 
@@ -321,6 +321,25 @@ Random Forest:  With the lowest MSE of 0.0948 and RMSE of 0.308, it performed th
 
 
 Overall, Random Forest is recommended as the best model due to its ability to handle complex data relationships, whereas simpler models like Linear Regression and K-Means offer interpretable and competitive alternatives for less complex tasks.
+
+## Research Question Analysis
+
+__Wind Speed:__ During the data analysis and predictive modeling, wind speed consistently showed a strong positive correlation with LV Active Power generation.
+
+1. In the Linear Regression model, the coefficient for wind speed was the largest among the preditors, which indicating its dominant impact in power generation.
+2. In Random Forest and Decision Tree models, they also highlighted wind speed as the most important feature during feature importance analysis. 
+
+__Wind Direction:__ Compared with wind speed, wind direction’s contribution was smaller but noticeable.
+
+1. Feature importance from Random Forest and Decision Tree models: the wind direction was ranked behind wind speed. 
+2. Based on the data analysis and predictive modeling, the slight but consistent impact of wind direction reflects how turbine alignment with the incoming wind flow affects the power output. Turbines operate optimally in directions 0° to 60° range and 300° to 360° range.
+
+## Analysis Conclusion
+
+The findings show that wind speed is the most important predictor, accounting for the majority of power output variation. Wind direction, on the other hand, provides important context by taking turbine alignment-related efficiency changes into consideration. These insights are consistent across both linear and non-linear models, supported by feature importance rankings, improved accuracy with polynomial terms, and observed trends in data analysis and prediction models.
+
+
+
 
 
 

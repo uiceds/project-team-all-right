@@ -72,6 +72,8 @@ content/01.abstract.md:166:LV
 content/01.abstract.md:166:MSE
 content/01.abstract.md:166:RMSE
 content/01.abstract.md:169:interpretable
+content/01.abstract.md:173:LV
+content/01.abstract.md:175:preditors
 content/90.back-matter.md:2:ARIMA
 content/90.back-matter.md:2:AUPEC
 content/90.back-matter.md:2:Ghosh

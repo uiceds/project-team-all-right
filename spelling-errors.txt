@@ -3,7 +3,7 @@ ARIMA
 AUPEC
 Berker
 CSV
-dataset
+Dataset
 Daut
 Ghosh
 Gomesh
@@ -23,6 +23,7 @@ microgrids
 MSE
 overfitting
 Perlis
+preditors
 Qiao
 Rajakaruna
 reproducibility

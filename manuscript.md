@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-11-18" />
   <meta name="citation_publication_date" content="2024-11-18" />
   <meta property="article:published_time" content="2024-11-18" />
-  <meta name="dc.modified" content="2024-11-18T05:53:46+00:00" />
-  <meta property="article:modified_time" content="2024-11-18T05:53:46+00:00" />
+  <meta name="dc.modified" content="2024-11-18T05:57:08+00:00" />
+  <meta property="article:modified_time" content="2024-11-18T05:57:08+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -55,9 +55,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-all-right/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-all-right/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-all-right/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-all-right/v/e194fa24c4ba32ac1711576f929a1c02c066599e/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-all-right/v/e194fa24c4ba32ac1711576f929a1c02c066599e/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-all-right/v/e194fa24c4ba32ac1711576f929a1c02c066599e/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-all-right/v/f84b54adc4de336eb000aebb05ea9546a946cb51/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-all-right/v/f84b54adc4de336eb000aebb05ea9546a946cb51/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-all-right/v/f84b54adc4de336eb000aebb05ea9546a946cb51/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -79,9 +79,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-all-right/v/e194fa24c4ba32ac1711576f929a1c02c066599e/))
+([permalink](https://uiceds.github.io/project-team-all-right/v/f84b54adc4de336eb000aebb05ea9546a946cb51/))
 was automatically generated
-from [uiceds/project-team-all-right@e194fa2](https://github.com/uiceds/project-team-all-right/tree/e194fa24c4ba32ac1711576f929a1c02c066599e)
+from [uiceds/project-team-all-right@f84b54a](https://github.com/uiceds/project-team-all-right/tree/f84b54adc4de336eb000aebb05ea9546a946cb51)
 on November 18, 2024.
 </em></small>
 
@@ -235,14 +235,82 @@ There is no noticeable trend over time, indicating that power generation does no
 
 ## Predictive Modeling
 
-Wind Speed shows the strongest correlation with LV Active Power, making it the most influential factor in determining power output. Wind Direction is the next significant factor impacting LV Active Power, indicating its influence on output variability. Based on these findings, developing a predictive model for power output is highly feasible and is expected to yield effective results.
+Research Question: Can wind speed and wind direction be used as predictors to accurately estimate the actual power output (LV Active Power) of a wind turbine, and how does the predicted power output compare to the theoretical power curve?
 
-In terms of predictive variables, Wind Speed emerges as a primary predictor due to its strong correlation with LV Active Power, positioning it as a critical driver of power output. Wind Direction, as a secondary predictor, also shows a notable correlation, suggesting it contributes meaningfully to variations in power output.
+__Predictive Problem and Models__
+
+The predictive problem involves estimating the LV Active Power of a wind turbine based on features of Wind Speed, Wind Direction, and the Theoretical Power Curve. This study is motivated by optimizing turbine efficiency and understanding the differences between theoretical and actual power output. Four models were implemented in this study: Linear Regression, Decision Tree, K-means, and Random Forest. Each model was evaluated for its predictive performance and ability to capture the relationships between the variables.
+
+__Data Processing and Implementation__
+
+1. The dataset was split into an 80% training set, and a 20% testing set. The models were trained on the training set and evaluated on the testing set for all four models.
+2. The target variable LV_ActivePower is standardized to have a mean of 0 and a standard deviation of 1, which ensures uniform data scaling and better algorithm performance. 
+3. Polynomial features were added to capture non-linear relationships between wind speed and active power output for Linear Regression and K-means models (decision tree and random forest models would naturally capture the non-linear relationships between features and target variables).
+
+__Modeling Results__
+
+K-means:
+K-means clustering was applied to group the dataset into k=3 clusters based on the engineered features. The clustering labels were added to the dataset as a categorical variable, enabling the regression model to account for inner-cluster variations.
+
+![image](https://github.com/uiceds/project-team-all-right/blob/main/128356922358373cbd45ea093da643e9.PNG?raw=true){width=90%}
+***Standardized scatter plot of Actual vs. Predicted LV Active Power for K-means model. The red line in the graph is the perfect prediction line for better comparison.***
+
+_Predictive Performance(K-means):_ 
+MSE (Mean Squared Error): 0.0952
+RMSE (Root Mean Squared Error): 0.309
+The plot shows a generally strong linear relationship between actual and predicted LV Active Power.
+
+Decision Tree:
+The decision Tree model was chosen because it can handle non-linear relationships and interactions between features. To balance complexity and overfitting, the model was configured with a maximum depth of 10.
+
+![image](https://github.com/uiceds/project-team-all-right/blob/main/d587046465cb19908d8d8d16a01fdcc9.PNG?raw=true){width=90%}
+***Standardized scatter plot of Actual vs. Predicted LV Active Power for Decision Tree model.***
+
+_Predictive Performance(Decision Tree):_
+Mean Squared Error (MSE): 0.174
+Root Mean Squared Error (RMSE): 0.418
+The scatter plot shows a linear trend between actual and predicted values, with some deviations, especially for lower and higher values of LV Active Power.
+
+Linear Regression:
+A multiple linear regression model was used because it is a straightforward method for analyzing relationships between multiple predictors and the target variable. Polynomial terms allow the model to account for non-linear relationships in the data.
+
+![image](https://github.com/uiceds/project-team-all-right/blob/main/Linear%20Regression.png?raw=true){width=90%}
+***Standardized scatter plot of Actual vs. Predicted LV Active Power for Linear Regression model.***
+
+_Predictive Performance(Decision Tree):_ 
+Mean Squared Error (MSE): 0.0963
+Root Mean Squared Error (RMSE): 0.310
+A strong linear trend exists between actual and predicted values, showing that the model captures the primary relationship between input features and the target variable.
+
+Random Forest:
+A Random Forest model was selected for its ability to handle non-linear relationships and interactions among features. The model was configured with 100 estimators and a random state of 42 to ensure reproducibility and performance stability.
+
+![image](https://github.com/uiceds/project-team-all-right/blob/main/c7cc145492bd32419b34d6736d0adc92.PNG?raw=true){width=90%}
+***Standardized scatter plot of Actual vs. Predicted LV Active Power for Random Forest model.***
+
+_Predictive Performance(Random Forest):_ 
+Mean Squared Error (MSE): 0.0948
+Root Mean Squared Error (RMSE): 0.308
+The scatter plot showed a strong linear relationship between actual and predicted values, indicating that the Random Forest model accurately captures the variations in LV Active Power, especially for middle-range values, with some deviations in extreme cases.
+
+## Model Comparisons
+
+![image](https://github.com/uiceds/project-team-all-right/blob/main/Comparison%20chart.png?raw=true){width=90%}
+***Comparison Chart to compare the four models based on their predictive performance, strengths, and weaknesses.***
+
+Linear Regression: With an MSE of 0.0963 and RMSE of 0.310, it performs well for prediction. 
+Its simplicity and interpretability make it practical for capturing primary trends, especially when polynomial features are included to account for non-linear relationships. However, its inability to fully capture complex interactions limits its flexibility. 
+
+Decision Tree: With an MSE of 0.174 and RMSE of 0.418, it demonstrated its ability to model non-linear relationships but could have overfitting and reduced generalization problems, particularly at extreme values of LV Active Power.
+
+K-means(enhanced linear regression model): With an MSE of 0.0952 and RMSE of 0.309, it improved based on standard Linear Regression by incorporating cluster-specific information. The K-means model captured subgroup-specific trends, but its dependency on clustering quality introduced variability in performance.
+
+Random Forest:  With the lowest MSE of 0.0948 and RMSE of 0.308, it performed the best within the four models. Despite minor variations at extreme values, its ensemble structure and resilience to non-linearities enabled it to generalize across the dataset effectively. Random Forest is the best model for forecasting LV Active Power because of its higher accuracy and resilience, despite its higher computational cost.
 
 
-## Expected Outcomes and Rationale
+Overall, Random Forest is recommended as the best model due to its ability to handle complex data relationships, whereas simpler models like Linear Regression and K-Means offer interpretable and competitive alternatives for less complex tasks.
 
-The analysis is expected to reveal the impact of wind speed and direction on power generation efficiency. We anticipate that higher wind speeds will generally correlate with increased power output up to a certain threshold[3]. Understanding discrepancies between actual and theoretical power could highlight areas where turbine efficiency can be improved. This analysis could help in optimizing turbine operation, leading to better alignment with wind conditions and potentially increasing overall power output.
+
 
 
 

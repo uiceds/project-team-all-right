@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-12-01" />
   <meta name="citation_publication_date" content="2024-12-01" />
   <meta property="article:published_time" content="2024-12-01" />
-  <meta name="dc.modified" content="2024-12-01T08:37:09+00:00" />
-  <meta property="article:modified_time" content="2024-12-01T08:37:09+00:00" />
+  <meta name="dc.modified" content="2024-12-01T08:43:11+00:00" />
+  <meta property="article:modified_time" content="2024-12-01T08:43:11+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -55,9 +55,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-all-right/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-all-right/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-all-right/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-all-right/v/0313061c1431bbd1911422d792036fec2150cc19/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-all-right/v/0313061c1431bbd1911422d792036fec2150cc19/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-all-right/v/0313061c1431bbd1911422d792036fec2150cc19/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-all-right/v/1a148c60a41c1665311c8ce888a7ec2261c1d192/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-all-right/v/1a148c60a41c1665311c8ce888a7ec2261c1d192/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-all-right/v/1a148c60a41c1665311c8ce888a7ec2261c1d192/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -79,9 +79,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-all-right/v/0313061c1431bbd1911422d792036fec2150cc19/))
+([permalink](https://uiceds.github.io/project-team-all-right/v/1a148c60a41c1665311c8ce888a7ec2261c1d192/))
 was automatically generated
-from [uiceds/project-team-all-right@0313061](https://github.com/uiceds/project-team-all-right/tree/0313061c1431bbd1911422d792036fec2150cc19)
+from [uiceds/project-team-all-right@1a148c6](https://github.com/uiceds/project-team-all-right/tree/1a148c60a41c1665311c8ce888a7ec2261c1d192)
 on December 1, 2024.
 </em></small>
 
@@ -239,7 +239,7 @@ __Modeling Results__
 __K-means:__
 K-means clustering was applied to group the dataset into k=3 clusters based on the engineered features. The clustering labels were added to the dataset as a categorical variable, enabling the regression model to account for inner-cluster variations.
 
-![image](https://github.com/uiceds/project-team-all-right/blob/main/128356922358373cbd45ea093da643e9.PNG?raw=true){width=90%}
+![image](https://github.com/uiceds/project-team-all-right/blob/main/128356922358373cbd45ea093da643e9.PNG?raw=true){width=93%}
 ***Figure 6: Standardized scatter plot of Actual vs. Predicted LV Active Power for K-means model. The red line in the graph is the perfect prediction line for better comparison.***
 
 Predictive Performance(K-means):
@@ -254,7 +254,7 @@ From Figure 6 analysis, the K-means model achieved a Mean Squared Error (MSE) of
 __Decision Tree:__
 The decision Tree model was chosen because it can handle non-linear relationships and interactions between features. To balance complexity and overfitting, the model was configured with a maximum depth of 10.
 
-![image](https://github.com/uiceds/project-team-all-right/blob/main/d587046465cb19908d8d8d16a01fdcc9.PNG?raw=true){width=90%}
+![image](https://github.com/uiceds/project-team-all-right/blob/main/d587046465cb19908d8d8d16a01fdcc9.PNG?raw=true){width=93%}
 ***Figure 7: Standardized scatter plot of Actual vs. Predicted LV Active Power for Decision Tree model.***
 
 Predictive Performance(Decision Tree):
@@ -268,7 +268,7 @@ The Decision Tree model achieved a Mean Squared Error (MSE) of 0.174 and a Root 
 __Linear Regression:__
 A multiple linear regression model was used because it is a straightforward method for analyzing relationships between multiple predictors and the target variable. Polynomial terms allow the model to account for non-linear relationships in the data.
 
-![image](https://github.com/uiceds/project-team-all-right/blob/main/%201%20LR.png?raw=true){width=90%}
+![image](https://github.com/uiceds/project-team-all-right/blob/main/%201%20LR.png?raw=true){width=93%}
 ***Figure 8: Standardized scatter plot of Actual vs. Predicted LV Active Power for Linear Regression model.***
 
 Predictive Performance(Decision Tree): 
@@ -283,7 +283,7 @@ The Linear Regression model achieved a Mean Squared Error (MSE) of 0.0963 and a 
 __Random Forest:__
 A Random Forest model was selected for its ability to handle non-linear relationships and interactions among features. The model was configured with 100 estimators and a random state of 42 to ensure reproducibility and performance stability.
 
-![image](https://github.com/uiceds/project-team-all-right/blob/main/c7cc145492bd32419b34d6736d0adc92.PNG?raw=true){width=90%}
+![image](https://github.com/uiceds/project-team-all-right/blob/main/c7cc145492bd32419b34d6736d0adc92.PNG?raw=true){width=93%}
 ***Figure 9: Standardized scatter plot of Actual vs. Predicted LV Active Power for Random Forest model.***
 
 Predictive Performance(Random Forest):
@@ -297,7 +297,7 @@ The Random Forest model achieved a Mean Squared Error (MSE) of 0.0948 and a Root
 
 ## Model Comparisons
 
-![image](https://github.com/uiceds/project-team-all-right/blob/main/Comparison%20chart.png?raw=true){width=90%}
+![image](https://github.com/uiceds/project-team-all-right/blob/main/Comparison%20chart.png?raw=true){width=93%}
 ***Figure 10: Comparison Chart to compare the four models based on their predictive performance, strengths, and weaknesses.***
 
 Based on the comparison shown in Figure 10, Random Forest emerged as the most effective among the four models, achieving the lowest error metrics and demonstrating the best ability to generalize across the dataset. Its ensemble structure effectively captured complex, non-linear relationships, making it the most accurate and reliable model for predicting LV Active Power, despite minor deviations at extreme values. K-Means Enhanced Linear Regression provided notable improvements over standard Linear Regression by incorporating cluster-specific trends, though its dependency on clustering quality introduced some variability. Linear Regression, while simple and interpretable, struggled with complex interactions, limiting its flexibility. The Decision Tree model captured non-linear relationships but was less accurate and tended to overfit. 

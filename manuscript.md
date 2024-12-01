@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-12-01" />
   <meta name="citation_publication_date" content="2024-12-01" />
   <meta property="article:published_time" content="2024-12-01" />
-  <meta name="dc.modified" content="2024-12-01T08:35:16+00:00" />
-  <meta property="article:modified_time" content="2024-12-01T08:35:16+00:00" />
+  <meta name="dc.modified" content="2024-12-01T08:37:09+00:00" />
+  <meta property="article:modified_time" content="2024-12-01T08:37:09+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -55,9 +55,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-all-right/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-all-right/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-all-right/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-all-right/v/bb0dfd6ff50e119643d7139eb36a5d2f1e58b85c/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-all-right/v/bb0dfd6ff50e119643d7139eb36a5d2f1e58b85c/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-all-right/v/bb0dfd6ff50e119643d7139eb36a5d2f1e58b85c/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-all-right/v/0313061c1431bbd1911422d792036fec2150cc19/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-all-right/v/0313061c1431bbd1911422d792036fec2150cc19/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-all-right/v/0313061c1431bbd1911422d792036fec2150cc19/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -79,9 +79,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-all-right/v/bb0dfd6ff50e119643d7139eb36a5d2f1e58b85c/))
+([permalink](https://uiceds.github.io/project-team-all-right/v/0313061c1431bbd1911422d792036fec2150cc19/))
 was automatically generated
-from [uiceds/project-team-all-right@bb0dfd6](https://github.com/uiceds/project-team-all-right/tree/bb0dfd6ff50e119643d7139eb36a5d2f1e58b85c)
+from [uiceds/project-team-all-right@0313061](https://github.com/uiceds/project-team-all-right/tree/0313061c1431bbd1911422d792036fec2150cc19)
 on December 1, 2024.
 </em></small>
 
@@ -331,6 +331,10 @@ To​​ further advance this research, several steps can be taken to build on t
 1. Yatiyana, E., Rajakaruna, S., & Ghosh, A. (2017, November). Wind speed and direction forecasting for wind power generation using ARIMA model. In 2017 Australasian universities power engineering conference (AUPEC) (pp. 1-6). IEEE.
 2. Wang, Z., & Liu, W. (2021). Wind energy potential assessment based on wind speed, its direction and power data. Scientific reports, 11(1), 16879.
 3. Daut, I. D. I., Irwanto, M. I. M., Suwarno, S., Irwan, Y. I. Y., Gomesh, N. G. N., & Ahmad, N. A. N. (2011). Potential of wind speed for wind power generation in Perlis, Northern Malaysia. TELKOMNIKA (Telecommunication Computing Electronics and Control), 9(3), 575-582.
+4. Erisen, B. (2019, March 7). Wind Turbine Scada dataset. Kaggle. https://www.kaggle.com/datasets/berkerisen/wind-turbine-scada-dataset/data
+5. Khamlaj, T. A., & Rumpfkeil, M. P. (2018). Analysis and optimization of ducted wind turbines. Energy, 162, 1234–1252. https://doi.org/10.1016/j.energy.2018.08.106
+6. Chen, W.-H., Chen, C.-Y., Huang, C.-Y., & Hwang, C.-J. (2017). Power output analysis and optimization of two straight-bladed vertical-axis wind turbines. Applied Energy, 185, 223–232. https://doi.org/10.1016/j.apenergy.2016.10.076 
+
 
 <!-- Explicitly insert bibliography here -->
 <div id="refs"></div>

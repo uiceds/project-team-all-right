@@ -3,8 +3,11 @@ ARIMA
 AUPEC
 dataset
 Daut
+ducted
+Erisen
 Ghosh
 Gomesh
+Hwang
 impactful
 interpretable
 Irwan
@@ -12,6 +15,8 @@ Irwanto
 Jingfei
 jingfeiqiao
 johndoe
+Kaggle
+Khamlaj
 Liu
 LV
 microgrids
@@ -26,7 +31,8 @@ Rajakaruna
 RANS
 reproducibility
 RMSE
-SCADA
+Rumpfkeil
+Scada
 socio
 Suwarno
 Taguchi

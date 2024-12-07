@@ -32,7 +32,7 @@ RANS
 reproducibility
 RMSE
 Rumpfkeil
-Scada
+SCADA
 socio
 Suwarno
 Taguchi

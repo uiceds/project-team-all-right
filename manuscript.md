@@ -25,8 +25,8 @@ header-includes: |
   <meta name="dc.date" content="2024-12-11" />
   <meta name="citation_publication_date" content="2024-12-11" />
   <meta property="article:published_time" content="2024-12-11" />
-  <meta name="dc.modified" content="2024-12-11T20:04:02+00:00" />
-  <meta property="article:modified_time" content="2024-12-11T20:04:02+00:00" />
+  <meta name="dc.modified" content="2024-12-11T20:13:22+00:00" />
+  <meta property="article:modified_time" content="2024-12-11T20:13:22+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -55,9 +55,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-all-right/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-all-right/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-all-right/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-all-right/v/8083e16a38220b9f90cd21ad8c8bcb6ca1ac6834/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-all-right/v/8083e16a38220b9f90cd21ad8c8bcb6ca1ac6834/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-all-right/v/8083e16a38220b9f90cd21ad8c8bcb6ca1ac6834/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-all-right/v/e7a2fd5c8f7381847d291d29670dd246509323ca/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-all-right/v/e7a2fd5c8f7381847d291d29670dd246509323ca/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-all-right/v/e7a2fd5c8f7381847d291d29670dd246509323ca/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -79,9 +79,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-all-right/v/8083e16a38220b9f90cd21ad8c8bcb6ca1ac6834/))
+([permalink](https://uiceds.github.io/project-team-all-right/v/e7a2fd5c8f7381847d291d29670dd246509323ca/))
 was automatically generated
-from [uiceds/project-team-all-right@8083e16](https://github.com/uiceds/project-team-all-right/tree/8083e16a38220b9f90cd21ad8c8bcb6ca1ac6834)
+from [uiceds/project-team-all-right@e7a2fd5](https://github.com/uiceds/project-team-all-right/tree/e7a2fd5c8f7381847d291d29670dd246509323ca)
 on December 11, 2024.
 </em></small>
 
@@ -242,7 +242,7 @@ K-means clustering was applied to group the dataset into k=3 clusters based on t
 ![image](https://github.com/uiceds/project-team-all-right/blob/main/128356922358373cbd45ea093da643e9.PNG?raw=true){width=93%}
 ***Figure 6: Standardized scatter plot of Actual vs. Predicted LV Active Power for K-means model. The red line in the graph is the perfect prediction line for better comparison.***
 
-1. Predictive Performance(K-means):
+*Predictive Performance(K-means):*
 
 From Figure 6 analysis, the K-means model achieved a Mean Squared Error (MSE) of 0.0952 and a Root Mean Squared Error (RMSE) of 0.309, indicating a relatively low error in predictions. The scatter plot of actual versus predicted LV Active Power reveals a generally strong linear relationship, demonstrating that the model effectively captures the underlying patterns in the data.
 
@@ -253,7 +253,7 @@ The decision Tree model was chosen because it can handle non-linear relationship
 ![image](https://github.com/uiceds/project-team-all-right/blob/main/d587046465cb19908d8d8d16a01fdcc9.PNG?raw=true){width=93%}
 ***Figure 7: Standardized scatter plot of Actual vs. Predicted LV Active Power for Decision Tree model.***
 
-2. Predictive Performance(Decision Tree):
+*Predictive Performance(Decision Tree):*
 
 The Decision Tree model achieved a Mean Squared Error (MSE) of 0.174 and a Root Mean Squared Error (RMSE) of 0.418, reflecting moderate predictive accuracy. The scatter plot of actual versus predicted values indicates a general linear trend, suggesting that the model captures the overall relationship between the variables. However, in Figure 7, deviations are more pronounced at the lower and higher ends of LV Active Power, highlighting areas where the model’s predictions are less accurate.
 
@@ -263,7 +263,7 @@ A multiple linear regression model was used because it is a straightforward meth
 ![image](https://github.com/uiceds/project-team-all-right/blob/main/%201%20LR.png?raw=true){width=93%}
 ***Figure 8: Standardized scatter plot of Actual vs. Predicted LV Active Power for Linear Regression model.***
 
-3. Predictive Performance(Linear Regression):
+*Predictive Performance(Linear Regression):*
 
 The Linear Regression model achieved a Mean Squared Error (MSE) of 0.0963 and a Root Mean Squared Error (RMSE) of 0.310, indicating good predictive performance. In Figure 8, the actual versus predicted values scatter plot reveals a strong linear trend. This demonstrates that the model effectively captures the primary relationship between the input features and the target variable, LV Active Power. This suggests that the model is well-suited for representing the overall patterns in the data, although it may have limitations in handling more complex, non-linear interactions.
 
@@ -274,7 +274,7 @@ A Random Forest model was selected for its ability to handle non-linear relation
 ![image](https://github.com/uiceds/project-team-all-right/blob/main/c7cc145492bd32419b34d6736d0adc92.PNG?raw=true){width=93%}
 ***Figure 9: Standardized scatter plot of Actual vs. Predicted LV Active Power for Random Forest model.***
 
-4. Predictive Performance(Random Forest):
+*Predictive Performance(Random Forest):*
 
 The Random Forest model achieved a Mean Squared Error (MSE) of 0.0948 and a Root Mean Squared Error (RMSE) of 0.308, reflecting high predictive accuracy. In Figure 9, the scatter plot of actual versus predicted values illustrates a strong linear relationship, indicating that the model effectively captures variations in LV Active Power. The model performs exceptionally well for middle-range values, demonstrating its ability to generalize across the dataset, but some deviations are observed at the extreme ends of the power output range.
 

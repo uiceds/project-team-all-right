@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2024-12-11'
+date-meta: '2024-12-12'
 author-meta:
 - Yuhao
 - Trix Li
@@ -22,11 +22,11 @@ header-includes: |
   <meta name="citation_title" content="Analysis and Optimization of Wind Turbine Power Generation Using Supervisory Control and Data Acquisition (SCADA) Data: Exploring the Impact of Wind Speed and Direction on Performance" />
   <meta property="og:title" content="Analysis and Optimization of Wind Turbine Power Generation Using Supervisory Control and Data Acquisition (SCADA) Data: Exploring the Impact of Wind Speed and Direction on Performance" />
   <meta property="twitter:title" content="Analysis and Optimization of Wind Turbine Power Generation Using Supervisory Control and Data Acquisition (SCADA) Data: Exploring the Impact of Wind Speed and Direction on Performance" />
-  <meta name="dc.date" content="2024-12-11" />
-  <meta name="citation_publication_date" content="2024-12-11" />
-  <meta property="article:published_time" content="2024-12-11" />
-  <meta name="dc.modified" content="2024-12-11T20:19:09+00:00" />
-  <meta property="article:modified_time" content="2024-12-11T20:19:09+00:00" />
+  <meta name="dc.date" content="2024-12-12" />
+  <meta name="citation_publication_date" content="2024-12-12" />
+  <meta property="article:published_time" content="2024-12-12" />
+  <meta name="dc.modified" content="2024-12-12T01:51:50+00:00" />
+  <meta property="article:modified_time" content="2024-12-12T01:51:50+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -55,9 +55,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/project-team-all-right/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/project-team-all-right/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/project-team-all-right/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-all-right/v/881bc32f4e38660fea9e51b67f1aebf66197e09e/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-all-right/v/881bc32f4e38660fea9e51b67f1aebf66197e09e/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-all-right/v/881bc32f4e38660fea9e51b67f1aebf66197e09e/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/project-team-all-right/v/8a2794625009afa2c0d2d4c60ed664b06af6486a/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/project-team-all-right/v/8a2794625009afa2c0d2d4c60ed664b06af6486a/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/project-team-all-right/v/8a2794625009afa2c0d2d4c60ed664b06af6486a/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -79,10 +79,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/project-team-all-right/v/881bc32f4e38660fea9e51b67f1aebf66197e09e/))
+([permalink](https://uiceds.github.io/project-team-all-right/v/8a2794625009afa2c0d2d4c60ed664b06af6486a/))
 was automatically generated
-from [uiceds/project-team-all-right@881bc32](https://github.com/uiceds/project-team-all-right/tree/881bc32f4e38660fea9e51b67f1aebf66197e09e)
-on December 11, 2024.
+from [uiceds/project-team-all-right@8a27946](https://github.com/uiceds/project-team-all-right/tree/8a2794625009afa2c0d2d4c60ed664b06af6486a)
+on December 12, 2024.
 </em></small>
 
 
@@ -198,7 +198,7 @@ __Wind Direction vs. Power Generation Analysis:__
 
 
 
-Based on the data analysis in Figure 2 and Figure 3, we can see there are specific ranges of wind directions where the LV Active Power reaches its maximum values, clustering at higher power output levels around 3500 kW. In the 0° to 60° range and 300° to 360° range, there is a dense concentration of points at higher power outputs, indicating that turbines generate more power when the wind comes from these directions. There is a clear pattern where certain wind directions correlate with higher and more consistent power outputs. These directions are likely more favorable for wind energy capture. For directions closer to 0°-60° and 300°-360°, the turbines consistently operate at higher power levels, suggesting these directions align well with the turbine’s optimal performance characteristics.
+Based on the data analysis in Figure 2 and Figure 3, we can see there are specific ranges of wind directions where the LV Active Power reaches its maximum values, clustering at higher power output levels around 3500 kW. In the 0° to 80° range and 175° to 250° range, there is a dense concentration of points at higher power outputs, indicating that turbines generate more power when the wind comes from these directions. There is a clear pattern where certain wind directions correlate with higher and more consistent power outputs. These directions are likely more favorable for wind energy capture. For directions closer to 0°-80° and 175°-250°, the turbines consistently operate at higher power levels, suggesting these directions align well with the turbine’s optimal performance characteristics.
 
 
 __Theoretical vs. Actual Power Comparison:__
@@ -295,7 +295,7 @@ The research question aimed to determine whether wind speed and wind direction c
 
 Wind speed emerged as the most critical predictor, showing a strong positive correlation with LV Active Power across all models. In Linear Regression, the coefficient for wind speed was the largest among all predictors, underscoring its dominant role in power generation. Similarly, feature importance analysis in Random Forest and Decision Tree models confirmed wind speed as the most influential variable, further validating its significance. The addition of polynomial terms in Linear Regression improved model accuracy, demonstrating the non-linear relationship between wind speed and power output, consistent with the theoretical cubic scaling of power generation.
 
-Wind direction, while less impactful than wind speed, contributed meaningful insights. Feature importance rankings from Random Forest and Decision Tree models consistently placed wind direction behind wind speed. The analysis revealed that turbines performed optimally when aligned within specific wind direction ranges (e.g., 0°–60° and 300°–360°), indicating the importance of turbine orientation in enhancing efficiency.
+Wind direction, while less impactful than wind speed, contributed meaningful insights. Feature importance rankings from Random Forest and Decision Tree models consistently placed wind direction behind wind speed. The analysis revealed that turbines performed optimally when aligned within specific wind direction ranges (e.g., 0°–80° and 175°–250°), indicating the importance of turbine orientation in enhancing efficiency.
 
 These findings supported the hypothesis that wind speed and wind direction are significant predictors of LV Active Power. While the models effectively captured variations in power output, some differences between predicted and theoretical power were observed, likely due to operational inefficiencies and real-world conditions not accounted for in the theoretical model.
 
